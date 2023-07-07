@@ -9,6 +9,7 @@
     --color2: #a0d2f3;
     --color3: #95fab9;
     --color4: #f4fab4;
+    --color5: #f7cae4;
 }
 header {
     display: flex;
@@ -19,7 +20,7 @@ header {
     border-bottom: 5px solid white;
 }
 .section__vectores--suma {
-    height: 100vh;
+    height: 100%;
     background-color: var(--color2);
     padding: 1rem;
     display: flex;
@@ -57,4 +58,13 @@ header {
 .resultado h3{
     margin-top: .5rem;
     font-weight: 400;
+}
+/* Seccion 2 */
+.section__vectores3--suma {
+    height: 100vh;
+    background-color: var(--color5);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
