@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+:root {
+    --color1: #84b6f4;
+    --color2: #a0d2f3;
+    --color3: #95fab9;
+    --color4: #f4fab4;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    height: 15vh;
+    border-bottom: 5px solid white;
+}
+.section__vectores--suma {
+    height: 100vh;
+    background-color: var(--color2);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs input {
+    margin-top: 1rem;
+    outline: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 5rem;
+    font-weight: bold;
+}
+.vector input {
+    height: 1.5rem;
+    border: none;
+}
+.resultado button{
+    margin-top: .5rem;
+    border: none;
+    width: 15rem;
+    height: 1.5rem;
+    background-color: var(--color3);
+    letter-spacing: 2px;
+    transition: background-color .2s;
+}
+.resultado button:hover {
+    background-color: #41ff84;
+}
+.resultado button:active {
+    background-color: #00c143;
+    color: white;
+}
+.resultado h3{
+    margin-top: .5rem;
+    font-weight: 400;
+}
